@@ -232,13 +232,13 @@ $("#upload").onclick=async()=>{
   const fname=$("#fname").value.trim(),title=$("#title").value.trim(),categoryId=$("#catSel").value;
   if(!fname||!title){toast("Başlık ve dosya adı gerekli","err");return;}
   if((catalog.tracks||[]).some(t=>t.file===fname)){toast("Bu dosya adı zaten var","err");return;}
-  if(!releaseId){toast("Release yok (klasik token gerekli)","err");return;}
   $("#upload").disabled=true;const bar=$("#bar");bar.style.display="block";bar.firstElementChild.style.width="12%";
   try{
-    // mp3 → Release asset
-    const up=await fetch(`${UP}/repos/${REPO}/releases/${releaseId}/assets?name=${encodeURIComponent(fname)}`,
-      {method:"POST",headers:{"Authorization":"token "+token,"Content-Type":"audio/mpeg"},body:pickedFile.arrayBuffer});
-    if(!up.ok){const e=await up.json();throw new Error(e.errors?.[0]?.code==="already_exists"?"mp3 zaten yüklü":(e.message||"asset hatası"));}
+    // mp3 → GitHub Pages music/ (Contents API — CORS uyumlu; Release upload CORS'a takılıyor)
+    let msha=null; try{msha=(await(await gh(`/repos/${REPO}/contents/music/${encodeURIComponent(fname)}`)).json()).sha;}catch(e){}
+    const mb={message:"müzik: "+fname,content:bytesToB64(pickedFile.arrayBuffer)}; if(msha)mb.sha=msha;
+    const mr=await gh(`/repos/${REPO}/contents/music/${encodeURIComponent(fname)}`,{method:"PUT",body:JSON.stringify(mb)});
+    if(!mr.ok){const e=await mr.json();throw new Error(e.message||"mp3 yükleme hatası");}
     bar.firstElementChild.style.width="50%";
     // kapak → Pages covers/
     let coverName="";
@@ -251,7 +251,8 @@ $("#upload").onclick=async()=>{
     }
     bar.firstElementChild.style.width="75%";
     catalog.tracks.push({file:fname,title,categoryId,genre:categoryId,duration:parseFloat($("#dur").value)||0,
-      artist:"vidas Özel",premium:$("#premium").checked,tags:$("#tags").value.trim(),description:$("#desc").value.trim(),cover:coverName});
+      artist:"vidas Özel",premium:$("#premium").checked,tags:$("#tags").value.trim(),description:$("#desc").value.trim(),
+      cover:coverName,hosted:"pages",bundled:true});
     await saveCatalog("müzik ekle: "+title);
     bar.firstElementChild.style.width="100%";
     toast("Yayınlandı ✓ — uygulamada sonraki açılışta görünür","ok");
@@ -282,9 +283,15 @@ function renderTracks(){
 async function togglePremium(i){catalog.tracks[i].premium=!catalog.tracks[i].premium;renderTracks();
   try{await saveCatalog("premium: "+catalog.tracks[i].title);toast("Güncellendi ✓","ok");}
   catch(e){catalog.tracks[i].premium=!catalog.tracks[i].premium;renderTracks();toast("Hata: "+e.message,"err");}}
-async function delTrack(i){const t=catalog.tracks[i];if(!confirm(`"${t.title}" silinsin mi? (mp3 da Release'ten silinir)`))return;
-  try{if(releaseId){const as=await(await gh(`/repos/${REPO}/releases/${releaseId}/assets?per_page=100`)).json();
-    const a=Array.isArray(as)?as.find(x=>x.name===t.file):null;if(a)await gh(`/repos/${REPO}/releases/assets/${a.id}`,{method:"DELETE"});}
+async function delTrack(i){const t=catalog.tracks[i];if(!confirm(`"${t.title}" silinsin mi? (mp3 dosyası da silinir)`))return;
+  try{
+    if(t.hosted==="pages"){ // Pages music/ dosyası (Contents API)
+      try{const f=await(await gh(`/repos/${REPO}/contents/music/${encodeURIComponent(t.file)}`)).json();
+        if(f.sha)await gh(`/repos/${REPO}/contents/music/${encodeURIComponent(t.file)}`,{method:"DELETE",body:JSON.stringify({message:"müzik sil: "+t.file,sha:f.sha})});}catch(e){}
+    } else if(releaseId){ // eski Release asset
+      const as=await(await gh(`/repos/${REPO}/releases/${releaseId}/assets?per_page=100`)).json();
+      const a=Array.isArray(as)?as.find(x=>x.name===t.file):null;if(a)await gh(`/repos/${REPO}/releases/assets/${a.id}`,{method:"DELETE"});
+    }
     catalog.tracks.splice(i,1);await saveCatalog("müzik sil: "+t.title);renderTracks();renderCategories();toast("Silindi ✓","ok");}
   catch(e){toast("Hata: "+e.message,"err");loadCatalog();}}
 
