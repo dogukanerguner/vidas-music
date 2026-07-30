@@ -9,15 +9,15 @@
    "order": 0
   },
   {
-   "id": "afrobeat-amapiano",
-   "name": "Afrobeat & Amapiano",
-   "icon": "🌍",
-   "order": 1
-  },
-  {
    "id": "hip-hop",
    "name": "Hip-Hop",
    "icon": "🎧",
+   "order": 1
+  },
+  {
+   "id": "afrobeat-amapiano",
+   "name": "Afrobeat & Amapiano",
+   "icon": "🌍",
    "order": 2
   },
   {
