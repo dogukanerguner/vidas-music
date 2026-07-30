@@ -15,15 +15,15 @@
    "order": 1
   },
   {
-   "id": "bass-dubstep",
-   "name": "Bass & Dubstep",
-   "icon": "🔊",
-   "order": 2
-  },
-  {
    "id": "t-rkiye",
    "name": "Türkiye",
    "icon": "🇹🇷",
+   "order": 2
+  },
+  {
+   "id": "bass-dubstep",
+   "name": "Bass & Dubstep",
+   "icon": "🔊",
    "order": 3
   },
   {
