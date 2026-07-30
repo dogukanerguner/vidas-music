@@ -27,15 +27,15 @@
    "order": 3
   },
   {
-   "id": "bass-dubstep",
-   "name": "Bass & Dubstep",
-   "icon": "🔊",
-   "order": 4
-  },
-  {
    "id": "trap",
    "name": "Trap",
    "icon": "⚡",
+   "order": 4
+  },
+  {
+   "id": "bass-dubstep",
+   "name": "Bass & Dubstep",
+   "icon": "🔊",
    "order": 5
   },
   {
