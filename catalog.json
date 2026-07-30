@@ -21,15 +21,15 @@
    "order": 2
   },
   {
-   "id": "drill",
-   "name": "Drill",
-   "icon": "🔩",
-   "order": 3
-  },
-  {
    "id": "trap",
    "name": "Trap",
    "icon": "⚡",
+   "order": 3
+  },
+  {
+   "id": "drill",
+   "name": "Drill",
+   "icon": "🔩",
    "order": 4
   },
   {
