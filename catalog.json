@@ -27,15 +27,15 @@
    "order": 3
   },
   {
-   "id": "afrobeat-amapiano",
-   "name": "Afrobeat & Amapiano",
-   "icon": "🌍",
-   "order": 4
-  },
-  {
    "id": "bass-dubstep",
    "name": "Bass & Dubstep",
    "icon": "🔊",
+   "order": 4
+  },
+  {
+   "id": "afrobeat-amapiano",
+   "name": "Afrobeat & Amapiano",
+   "icon": "🌍",
    "order": 5
   },
   {
