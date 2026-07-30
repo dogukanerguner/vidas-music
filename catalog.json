@@ -15,15 +15,15 @@
    "order": 1
   },
   {
-   "id": "afrobeat-amapiano",
-   "name": "Afrobeat & Amapiano",
-   "icon": "🌍",
-   "order": 2
-  },
-  {
    "id": "drill",
    "name": "Drill",
    "icon": "🔩",
+   "order": 2
+  },
+  {
+   "id": "afrobeat-amapiano",
+   "name": "Afrobeat & Amapiano",
+   "icon": "🌍",
    "order": 3
   },
   {
