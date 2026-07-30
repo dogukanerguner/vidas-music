@@ -21,15 +21,15 @@
    "order": 2
   },
   {
-   "id": "hip-hop",
-   "name": "Hip-Hop",
-   "icon": "🎧",
-   "order": 3
-  },
-  {
    "id": "ocuk-e-lence",
    "name": "Çocuk & Eğlence",
    "icon": "😊",
+   "order": 3
+  },
+  {
+   "id": "hip-hop",
+   "name": "Hip-Hop",
+   "icon": "🎧",
    "order": 4
   },
   {
