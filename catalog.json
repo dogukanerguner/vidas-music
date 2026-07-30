@@ -21,15 +21,15 @@
    "order": 2
   },
   {
-   "id": "bass-dubstep",
-   "name": "Bass & Dubstep",
-   "icon": "🔊",
-   "order": 3
-  },
-  {
    "id": "hip-hop",
    "name": "Hip-Hop",
    "icon": "🎧",
+   "order": 3
+  },
+  {
+   "id": "bass-dubstep",
+   "name": "Bass & Dubstep",
+   "icon": "🔊",
    "order": 4
   },
   {
