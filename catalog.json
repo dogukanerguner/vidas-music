@@ -39,15 +39,15 @@
    "order": 5
   },
   {
-   "id": "latin-reggaeton",
-   "name": "Latin & Reggaeton",
-   "icon": "🎸",
-   "order": 6
-  },
-  {
    "id": "trap",
    "name": "Trap",
    "icon": "⚡",
+   "order": 6
+  },
+  {
+   "id": "latin-reggaeton",
+   "name": "Latin & Reggaeton",
+   "icon": "🎸",
    "order": 7
   }
  ],
