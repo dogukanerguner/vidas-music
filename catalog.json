@@ -3,15 +3,15 @@
  "updated": "2026-07-30",
  "categories": [
   {
-   "id": "afrobeat-amapiano",
-   "name": "Afrobeat & Amapiano",
-   "icon": "🌍",
-   "order": 0
-  },
-  {
    "id": "t-rkiye",
    "name": "Türkiye",
    "icon": "🇹🇷",
+   "order": 0
+  },
+  {
+   "id": "afrobeat-amapiano",
+   "name": "Afrobeat & Amapiano",
+   "icon": "🌍",
    "order": 1
   },
   {
