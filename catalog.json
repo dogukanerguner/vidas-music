@@ -1,6 +1,50 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-07-30",
+ "categories": [
+  {
+   "id": "afrobeat-amapiano",
+   "name": "Afrobeat & Amapiano",
+   "icon": "🌍",
+   "order": 0
+  },
+  {
+   "id": "drill",
+   "name": "Drill",
+   "icon": "🔩",
+   "order": 1
+  },
+  {
+   "id": "bass-dubstep",
+   "name": "Bass & Dubstep",
+   "icon": "🔊",
+   "order": 2
+  },
+  {
+   "id": "hip-hop",
+   "name": "Hip-Hop",
+   "icon": "🎧",
+   "order": 3
+  },
+  {
+   "id": "ocuk-e-lence",
+   "name": "Çocuk & Eğlence",
+   "icon": "😊",
+   "order": 4
+  },
+  {
+   "id": "latin-reggaeton",
+   "name": "Latin & Reggaeton",
+   "icon": "🎸",
+   "order": 5
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
+   "order": 6
+  }
+ ],
  "tracks": [
   {
    "file": "afrobeat-amapiano-01.mp3",
@@ -10,7 +54,9 @@
    "artist": "vidas Özel",
    "premium": true,
    "tags": "test premium",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-02.mp3",
@@ -20,7 +66,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-03.mp3",
@@ -30,7 +78,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-04.mp3",
@@ -40,7 +90,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-05.mp3",
@@ -50,7 +102,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-06.mp3",
@@ -60,7 +114,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-07.mp3",
@@ -70,7 +126,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-08.mp3",
@@ -80,7 +138,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-09.mp3",
@@ -90,7 +150,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-10.mp3",
@@ -100,7 +162,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-11.mp3",
@@ -110,7 +174,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-12.mp3",
@@ -120,7 +186,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-13.mp3",
@@ -130,7 +198,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-14.mp3",
@@ -140,7 +210,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-15.mp3",
@@ -150,7 +222,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-16.mp3",
@@ -160,7 +234,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-17.mp3",
@@ -170,7 +246,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-18.mp3",
@@ -180,7 +258,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-19.mp3",
@@ -190,7 +270,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-20.mp3",
@@ -200,7 +282,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-21.mp3",
@@ -210,7 +294,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-22.mp3",
@@ -220,7 +306,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-23.mp3",
@@ -230,7 +318,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-24.mp3",
@@ -240,7 +330,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-25.mp3",
@@ -250,7 +342,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-26.mp3",
@@ -260,7 +354,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-27.mp3",
@@ -270,7 +366,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-28.mp3",
@@ -280,7 +378,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-29.mp3",
@@ -290,7 +390,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-30.mp3",
@@ -300,7 +402,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-31.mp3",
@@ -310,7 +414,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-32.mp3",
@@ -320,7 +426,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-33.mp3",
@@ -330,7 +438,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-34.mp3",
@@ -340,7 +450,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-35.mp3",
@@ -350,7 +462,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-36.mp3",
@@ -360,7 +474,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-37.mp3",
@@ -370,7 +486,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-38.mp3",
@@ -380,7 +498,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "afrobeat-amapiano-39.mp3",
@@ -390,7 +510,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "afrobeat-amapiano",
+   "cover": ""
   },
   {
    "file": "drill-01.mp3",
@@ -400,7 +522,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-02.mp3",
@@ -410,7 +534,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-03.mp3",
@@ -420,7 +546,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-04.mp3",
@@ -430,7 +558,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-05.mp3",
@@ -440,7 +570,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-06.mp3",
@@ -450,7 +582,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-07.mp3",
@@ -460,7 +594,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-08.mp3",
@@ -470,7 +606,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-09.mp3",
@@ -480,7 +618,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-10.mp3",
@@ -490,7 +630,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-11.mp3",
@@ -500,7 +642,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-12.mp3",
@@ -510,7 +654,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-13.mp3",
@@ -520,7 +666,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-14.mp3",
@@ -530,7 +678,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-15.mp3",
@@ -540,7 +690,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "drill-16.mp3",
@@ -550,7 +702,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "drill",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-01.mp3",
@@ -560,7 +714,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-02.mp3",
@@ -570,7 +726,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-03.mp3",
@@ -580,7 +738,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-04.mp3",
@@ -590,7 +750,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-05.mp3",
@@ -600,7 +762,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-06.mp3",
@@ -610,7 +774,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-07.mp3",
@@ -620,7 +786,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-08.mp3",
@@ -630,7 +798,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-09.mp3",
@@ -640,7 +810,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-10.mp3",
@@ -650,7 +822,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-11.mp3",
@@ -660,7 +834,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-12.mp3",
@@ -670,7 +846,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-13.mp3",
@@ -680,7 +858,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-14.mp3",
@@ -690,7 +870,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-15.mp3",
@@ -700,7 +882,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "dubstep-bass-16.mp3",
@@ -710,7 +894,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "bass-dubstep",
+   "cover": ""
   },
   {
    "file": "hiphop-01.mp3",
@@ -720,7 +906,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-02.mp3",
@@ -730,7 +918,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-03.mp3",
@@ -740,7 +930,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-04.mp3",
@@ -750,7 +942,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-05.mp3",
@@ -760,7 +954,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-06.mp3",
@@ -770,7 +966,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-07.mp3",
@@ -780,7 +978,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-08.mp3",
@@ -790,7 +990,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-09.mp3",
@@ -800,7 +1002,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-10.mp3",
@@ -810,7 +1014,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-11.mp3",
@@ -820,7 +1026,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-12.mp3",
@@ -830,7 +1038,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-13.mp3",
@@ -840,7 +1050,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-14.mp3",
@@ -850,7 +1062,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-15.mp3",
@@ -860,7 +1074,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-16.mp3",
@@ -870,7 +1086,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-17.mp3",
@@ -880,7 +1098,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-18.mp3",
@@ -890,7 +1110,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-19.mp3",
@@ -900,7 +1122,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-20.mp3",
@@ -910,7 +1134,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-21.mp3",
@@ -920,7 +1146,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-22.mp3",
@@ -930,7 +1158,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-23.mp3",
@@ -940,7 +1170,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-24.mp3",
@@ -950,7 +1182,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-25.mp3",
@@ -960,7 +1194,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-26.mp3",
@@ -970,7 +1206,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-27.mp3",
@@ -980,7 +1218,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-28.mp3",
@@ -990,7 +1230,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-29.mp3",
@@ -1000,7 +1242,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-30.mp3",
@@ -1010,7 +1254,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-31.mp3",
@@ -1020,7 +1266,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-32.mp3",
@@ -1030,7 +1278,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-33.mp3",
@@ -1040,7 +1290,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-34.mp3",
@@ -1050,7 +1302,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-35.mp3",
@@ -1060,7 +1314,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-36.mp3",
@@ -1070,7 +1326,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-37.mp3",
@@ -1080,7 +1338,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-38.mp3",
@@ -1090,7 +1350,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-39.mp3",
@@ -1100,7 +1362,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-40.mp3",
@@ -1110,7 +1374,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-41.mp3",
@@ -1120,7 +1386,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-42.mp3",
@@ -1130,7 +1398,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-43.mp3",
@@ -1140,7 +1410,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-44.mp3",
@@ -1150,7 +1422,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-45.mp3",
@@ -1160,7 +1434,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-46.mp3",
@@ -1170,7 +1446,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-47.mp3",
@@ -1180,7 +1458,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-48.mp3",
@@ -1190,7 +1470,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-49.mp3",
@@ -1200,7 +1482,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-50.mp3",
@@ -1210,7 +1494,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-51.mp3",
@@ -1220,7 +1506,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-52.mp3",
@@ -1230,7 +1518,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-53.mp3",
@@ -1240,7 +1530,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-54.mp3",
@@ -1250,7 +1542,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-55.mp3",
@@ -1260,7 +1554,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-56.mp3",
@@ -1270,7 +1566,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-57.mp3",
@@ -1280,7 +1578,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-58.mp3",
@@ -1290,7 +1590,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-59.mp3",
@@ -1300,7 +1602,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-60.mp3",
@@ -1310,7 +1614,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-61.mp3",
@@ -1320,7 +1626,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-62.mp3",
@@ -1330,7 +1638,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-63.mp3",
@@ -1340,7 +1650,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-64.mp3",
@@ -1350,7 +1662,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-65.mp3",
@@ -1360,7 +1674,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-66.mp3",
@@ -1370,7 +1686,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-67.mp3",
@@ -1380,7 +1698,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "hiphop-68.mp3",
@@ -1390,7 +1710,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "hip-hop",
+   "cover": ""
   },
   {
    "file": "kids-fun-01.mp3",
@@ -1400,7 +1722,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "ocuk-e-lence",
+   "cover": ""
   },
   {
    "file": "kids-fun-02.mp3",
@@ -1410,7 +1734,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "ocuk-e-lence",
+   "cover": ""
   },
   {
    "file": "kids-fun-03.mp3",
@@ -1420,7 +1746,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "ocuk-e-lence",
+   "cover": ""
   },
   {
    "file": "kids-fun-04.mp3",
@@ -1430,7 +1758,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "ocuk-e-lence",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-01.mp3",
@@ -1440,7 +1770,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-02.mp3",
@@ -1450,7 +1782,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-03.mp3",
@@ -1460,7 +1794,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-04.mp3",
@@ -1470,7 +1806,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-05.mp3",
@@ -1480,7 +1818,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-06.mp3",
@@ -1490,7 +1830,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-07.mp3",
@@ -1500,7 +1842,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-08.mp3",
@@ -1510,7 +1854,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-09.mp3",
@@ -1520,7 +1866,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-10.mp3",
@@ -1530,7 +1878,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-11.mp3",
@@ -1540,7 +1890,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-12.mp3",
@@ -1550,7 +1902,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-13.mp3",
@@ -1560,7 +1914,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-14.mp3",
@@ -1570,7 +1926,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-15.mp3",
@@ -1580,7 +1938,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "latin-reggaeton-16.mp3",
@@ -1590,7 +1950,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "latin-reggaeton",
+   "cover": ""
   },
   {
    "file": "trap-01.mp3",
@@ -1600,7 +1962,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-02.mp3",
@@ -1610,7 +1974,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-03.mp3",
@@ -1620,7 +1986,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-04.mp3",
@@ -1630,7 +1998,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-05.mp3",
@@ -1640,7 +2010,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-06.mp3",
@@ -1650,7 +2022,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-07.mp3",
@@ -1660,7 +2034,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-08.mp3",
@@ -1670,7 +2046,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-09.mp3",
@@ -1680,7 +2058,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-10.mp3",
@@ -1690,7 +2070,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-11.mp3",
@@ -1700,7 +2082,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-12.mp3",
@@ -1710,7 +2094,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-13.mp3",
@@ -1720,7 +2106,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-14.mp3",
@@ -1730,7 +2118,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-15.mp3",
@@ -1740,7 +2130,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   },
   {
    "file": "trap-16.mp3",
@@ -1750,7 +2142,9 @@
    "artist": "vidas Özel",
    "premium": false,
    "tags": "",
-   "description": ""
+   "description": "",
+   "categoryId": "trap",
+   "cover": ""
   }
  ]
 }
