@@ -8,8 +8,8 @@
    "genre": "afrobeat-amapiano",
    "duration": 112.0,
    "artist": "vidas Özel",
-   "premium": false,
-   "tags": "",
+   "premium": true,
+   "tags": "test premium",
    "description": ""
   },
   {
