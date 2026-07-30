@@ -39,15 +39,15 @@
    "order": 5
   },
   {
-   "id": "ocuk-e-lence",
-   "name": "Çocuk & Eğlence",
-   "icon": "😊",
-   "order": 6
-  },
-  {
    "id": "latin-reggaeton",
    "name": "Latin & Reggaeton",
    "icon": "🎸",
+   "order": 6
+  },
+  {
+   "id": "ocuk-e-lence",
+   "name": "Çocuk & Eğlence",
+   "icon": "😊",
    "order": 7
   }
  ],
