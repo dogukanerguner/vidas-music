@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>vidas · Müzik Yönetimi</title>
+<style>
+  :root{
+    --bg:#0c0c0f; --panel:#16161b; --panel2:#1d1d24; --line:#2a2a33;
+    --ink:#f4f2ef; --mut:#9a97a4; --dim:#6d6a77;
+    --coral:#ff5e62; --amber:#ffb347; --grad:linear-gradient(135deg,#ff5e62,#ffb347);
+    --ok:#37c98b; --err:#ff5b6a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  a{color:var(--amber)}
+  .wrap{max-width:820px;margin:0 auto;padding:24px 18px 80px}
+  header{display:flex;align-items:center;gap:12px;margin:8px 0 24px}
+  .mark{font-weight:800;font-size:26px;letter-spacing:-1px}
+  .mark .i{color:var(--coral)}
+  .kicker{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);margin-left:auto}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px}
+  .card h2{margin:0 0 14px;font-size:13px;letter-spacing:1.4px;text-transform:uppercase;color:var(--mut);font-weight:700}
+  label{display:block;font-size:12px;color:var(--mut);margin:12px 0 5px}
+  input[type=text],input[type=password],textarea,select{
+    width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;
+    color:var(--ink);padding:11px 12px;font:inherit;outline:none}
+  input:focus,textarea:focus,select:focus{border-color:var(--coral)}
+  textarea{resize:vertical;min-height:60px}
+  .row{display:flex;gap:12px;flex-wrap:wrap}
+  .row>div{flex:1;min-width:180px}
+  .chk{display:flex;align-items:center;gap:9px;margin-top:14px;cursor:pointer;user-select:none}
+  .chk input{width:20px;height:20px;accent-color:var(--coral)}
+  .chk span{font-size:14px;color:var(--ink)}
+  button{font:inherit;font-weight:700;border:none;border-radius:10px;padding:12px 18px;cursor:pointer;color:#1a1206;background:var(--grad)}
+  button.ghost{background:transparent;color:var(--mut);border:1px solid var(--line)}
+  button:disabled{opacity:.5;cursor:not-allowed}
+  .drop{border:1.5px dashed var(--line);border-radius:12px;padding:24px;text-align:center;color:var(--mut);cursor:pointer;transition:.15s}
+  .drop.hot{border-color:var(--coral);color:var(--ink);background:rgba(255,94,98,.06)}
+  .drop b{color:var(--amber)}
+  .muted{color:var(--dim);font-size:12px}
+  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--panel2);
+    border:1px solid var(--line);border-radius:10px;padding:12px 18px;font-size:14px;opacity:0;
+    transition:.25s;pointer-events:none;max-width:90vw}
+  .toast.show{opacity:1}
+  .toast.ok{border-color:var(--ok)} .toast.err{border-color:var(--err)}
+  .list-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .list-head input{flex:1}
+  .trk{display:flex;align-items:center;gap:12px;padding:11px;border-radius:10px;border:1px solid transparent}
+  .trk:hover{background:var(--panel2);border-color:var(--line)}
+  .trk .t{flex:1;min-width:0}
+  .trk .t .ti{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .trk .t .me{font-size:11.5px;color:var(--dim)}
+  .badge{font-size:10px;font-weight:700;letter-spacing:.5px;padding:3px 8px;border-radius:20px;white-space:nowrap}
+  .badge.pro{background:rgba(255,179,71,.16);color:var(--amber)}
+  .badge.free{background:var(--panel2);color:var(--dim)}
+  .iconbtn{background:transparent;color:var(--mut);border:1px solid var(--line);padding:7px 11px;font-size:13px;font-weight:600}
+  .iconbtn.pro{border-color:var(--amber);color:var(--amber)}
+  .iconbtn.del{border-color:transparent;color:var(--dim)}
+  .iconbtn.del:hover{color:var(--err)}
+  .bar{height:6px;background:var(--panel2);border-radius:6px;overflow:hidden;margin-top:12px;display:none}
+  .bar>i{display:block;height:100%;width:0;background:var(--grad);transition:.2s}
+  .split{display:flex;gap:8px;align-items:center}
+  .count{font-size:12px;color:var(--dim);margin-left:auto}
+  .hint{font-size:12px;color:var(--dim);margin-top:6px;line-height:1.5}
+  code{background:var(--panel2);padding:2px 6px;border-radius:5px;font-size:12px;color:var(--amber)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">v<span class="i">i</span>das</div>
+    <div class="kicker">Müzik Yönetimi</div>
+  </header>
+
+  <!-- Bağlantı -->
+  <div class="card" id="authCard">
+    <h2>GitHub Bağlantısı</h2>
+    <label>Kişisel Erişim Token'ı (PAT)</label>
+    <div class="split">
+      <input type="password" id="pat" placeholder="github_pat_… veya ghp_…" autocomplete="off">
+      <button id="saveTok">Kaydet</button>
+    </div>
+    <div class="hint">
+      Token yalnız bu tarayıcıda saklanır (localStorage), sayfaya gömülmez.
+      <a href="https://github.com/settings/tokens?type=beta" target="_blank">Fine-grained token</a> üret →
+      yalnız <code>dogukanerguner/vidas-music</code> deposu → izinler: <b>Contents: Read&Write</b>.
+      <br>Not: Releases'e dosya yüklemek için <b>klasik token</b> (scope <code>repo</code>) gerekir; fine-grained
+      şu an asset upload'ı desteklemiyor. Sadece premium/metadata düzenlemek için fine-grained yeterlidir.
+    </div>
+    <div id="who" class="hint"></div>
+  </div>
+
+  <!-- Yeni parça -->
+  <div class="card" id="uploadCard" style="display:none">
+    <h2>Yeni Parça Yükle</h2>
+    <div class="drop" id="drop">
+      <div id="dropText">🎵 mp3 dosyasını buraya sürükle <b>ya da seç</b></div>
+      <input type="file" id="file" accept="audio/mpeg,.mp3" hidden>
+    </div>
+    <div class="row">
+      <div>
+        <label>Başlık</label>
+        <input type="text" id="title" placeholder="Örn. Midnight Drive">
+      </div>
+      <div>
+        <label>Tür</label>
+        <select id="genre"></select>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label>Dosya adı (URL-güvenli)</label>
+        <input type="text" id="fname" placeholder="hiphop-53.mp3">
+      </div>
+      <div>
+        <label>Süre (sn — otomatik)</label>
+        <input type="text" id="dur" placeholder="—" readonly>
+      </div>
+    </div>
+    <label>Etiketler (arama için, virgülle)</label>
+    <input type="text" id="tags" placeholder="karanlık, trap, enerjik">
+    <label>Açıklama (opsiyonel)</label>
+    <textarea id="desc" placeholder="Kısa açıklama…"></textarea>
+    <label class="chk"><input type="checkbox" id="premium"><span>👑 Premium (Pro gerektirir)</span></label>
+    <div class="bar" id="bar"><i></i></div>
+    <div style="margin-top:16px"><button id="upload" disabled>Yükle ve Yayınla</button></div>
+  </div>
+
+  <!-- Mevcut parçalar -->
+  <div class="card" id="listCard" style="display:none">
+    <h2>Katalog</h2>
+    <div class="list-head">
+      <input type="text" id="search" placeholder="Parça ara…">
+      <span class="count" id="count"></span>
+    </div>
+    <div id="list"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const REPO = "dogukanerguner/vidas-music";
+const TAG  = "music-v1";
+const API  = "https://api.github.com";
+const UP   = "https://uploads.github.com";
+const GENRES = ["hiphop","trap","phonk","synthwave","drill","edm","house","dubstep",
+  "lofi","chill","pop","funk","cinematic","kids","afrobeat-amapiano","latin-reggaeton",
+  "rnb-soul","corporate-vlog","trailer-action"];
+
+let token = localStorage.getItem("vidas.pat") || "";
+let catalog = null;      // {version, tracks:[…]}
+let catalogSha = null;   // contents API sha
+let releaseId = null;
+let pickedFile = null;   // {arrayBuffer, name}
+
+const $ = s => document.querySelector(s);
+function toast(msg, kind){ const t=$("#toast"); t.textContent=msg; t.className="toast show "+(kind||""); setTimeout(()=>t.className="toast",2600); }
+function gh(path, opts={}){ return fetch((path.startsWith("http")?path:API+path), {
+  ...opts, headers:{ "Authorization":"token "+token, "Accept":"application/vnd.github+json", ...(opts.headers||{}) }
+}); }
+const b64encode = s => btoa(unescape(encodeURIComponent(s)));
+const b64decode = s => decodeURIComponent(escape(atob(s)));
+
+// tür dropdown
+$("#genre").innerHTML = GENRES.map(g=>`<option value="${g}">${g}</option>`).join("");
+
+// token
+$("#pat").value = token;
+$("#saveTok").onclick = async () => {
+  token = $("#pat").value.trim();
+  localStorage.setItem("vidas.pat", token);
+  if(!token){ $("#who").textContent=""; return; }
+  try{
+    const u = await (await gh("/user")).json();
+    $("#who").innerHTML = u.login ? `✓ Bağlandı: <b>${u.login}</b>` : "Token doğrulanamadı.";
+    if(u.login){ $("#uploadCard").style.display=""; $("#listCard").style.display=""; await boot(); }
+  }catch(e){ $("#who").textContent="Bağlantı hatası."; }
+};
+
+async function boot(){
+  // release id
+  try{
+    const r = await (await gh(`/repos/${REPO}/releases/tags/${TAG}`)).json();
+    releaseId = r.id;
+  }catch(e){}
+  await loadCatalog();
+}
+
+async function loadCatalog(){
+  const r = await gh(`/repos/${REPO}/contents/catalog.json`);
+  const j = await r.json();
+  catalogSha = j.sha;
+  catalog = JSON.parse(b64decode(j.content));
+  renderList();
+}
+
+async function saveCatalog(msg){
+  catalog.version = (catalog.version||1);
+  const body = { message: msg, content: b64encode(JSON.stringify(catalog,null,1)), sha: catalogSha };
+  const r = await gh(`/repos/${REPO}/contents/catalog.json`, { method:"PUT", body:JSON.stringify(body) });
+  const j = await r.json();
+  if(j.content){ catalogSha = j.content.sha; return true; }
+  throw new Error(j.message||"kayıt hatası");
+}
+
+// dosya seçimi + süre
+const drop=$("#drop"), fileInput=$("#file");
+drop.onclick=()=>fileInput.click();
+["dragover","dragenter"].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.add("hot")}));
+["dragleave","drop"].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.remove("hot")}));
+drop.addEventListener("drop",ev=>{ if(ev.dataTransfer.files[0]) handleFile(ev.dataTransfer.files[0]); });
+fileInput.onchange=()=>{ if(fileInput.files[0]) handleFile(fileInput.files[0]); };
+
+async function handleFile(f){
+  if(!/\.mp3$|audio\/mpeg/.test(f.name+f.type)){ toast("Sadece mp3 dosyası","err"); return; }
+  const buf = await f.arrayBuffer();
+  pickedFile = { arrayBuffer: buf, name: f.name };
+  $("#dropText").innerHTML = `🎵 <b>${f.name}</b> (${(f.size/1e6).toFixed(1)} MB)`;
+  const slug = f.name.toLowerCase().replace(/[^a-z0-9.]+/g,"-").replace(/^-+|-+$/g,"");
+  if(!$("#fname").value) $("#fname").value = slug;
+  if(!$("#title").value) $("#title").value = f.name.replace(/\.[^.]+$/,"");
+  // süre
+  try{
+    const ctx = new (window.AudioContext||window.webkitAudioContext)();
+    const audio = await ctx.decodeAudioData(buf.slice(0));
+    $("#dur").value = audio.duration.toFixed(1);
+    ctx.close();
+  }catch(e){ $("#dur").value=""; }
+  $("#upload").disabled = false;
+}
+
+// yükleme
+$("#upload").onclick = async () => {
+  if(!pickedFile){ toast("Önce dosya seç","err"); return; }
+  const fname = $("#fname").value.trim();
+  const title = $("#title").value.trim();
+  if(!fname || !title){ toast("Başlık ve dosya adı gerekli","err"); return; }
+  if(catalog.tracks.some(t=>t.file===fname)){ toast("Bu dosya adı zaten var","err"); return; }
+  if(!releaseId){ toast("Release bulunamadı (klasik token gerekli)","err"); return; }
+
+  $("#upload").disabled=true; const bar=$("#bar"); bar.style.display="block"; bar.firstElementChild.style.width="15%";
+  try{
+    // 1) asset upload (Release)
+    const up = await fetch(`${UP}/repos/${REPO}/releases/${releaseId}/assets?name=${encodeURIComponent(fname)}`,{
+      method:"POST", headers:{ "Authorization":"token "+token, "Content-Type":"audio/mpeg" },
+      body: pickedFile.arrayBuffer
+    });
+    if(!up.ok){ const e=await up.json(); throw new Error(e.errors?.[0]?.code==="already_exists"?"dosya zaten yüklü":(e.message||"asset upload hatası")); }
+    bar.firstElementChild.style.width="65%";
+    // 2) catalog.json güncelle
+    catalog.tracks.push({
+      file: fname, title, genre: $("#genre").value, duration: parseFloat($("#dur").value)||0,
+      artist:"vidas Özel", premium: $("#premium").checked, tags: $("#tags").value.trim(), description: $("#desc").value.trim()
+    });
+    await saveCatalog(`müzik ekle: ${title}`);
+    bar.firstElementChild.style.width="100%";
+    toast("Yayınlandı ✓ — uygulamada bir sonraki açılışta görünür","ok");
+    // temizle
+    pickedFile=null; fileInput.value=""; $("#dropText").innerHTML='🎵 mp3 dosyasını buraya sürükle <b>ya da seç</b>';
+    ["title","fname","tags","desc","dur"].forEach(id=>$("#"+id).value=""); $("#premium").checked=false;
+    renderList();
+  }catch(e){ toast("Hata: "+e.message,"err"); }
+  finally{ setTimeout(()=>{bar.style.display="none";bar.firstElementChild.style.width="0"},600); $("#upload").disabled=false; }
+};
+
+// liste
+$("#search").oninput = renderList;
+function renderList(){
+  if(!catalog){ return; }
+  const q = $("#search").value.toLowerCase();
+  const items = catalog.tracks.filter(t=> !q || (t.title+t.genre+(t.tags||"")).toLowerCase().includes(q));
+  $("#count").textContent = `${catalog.tracks.length} parça · ${catalog.tracks.filter(t=>t.premium).length} premium`;
+  $("#list").innerHTML = items.map((t,i)=>{
+    const idx = catalog.tracks.indexOf(t);
+    return `<div class="trk">
+      <div class="t"><div class="ti">${esc(t.title)}</div>
+        <div class="me">${esc(t.genre)} · ${(t.duration||0).toFixed(0)}s · ${esc(t.file)}</div></div>
+      <span class="badge ${t.premium?'pro':'free'}">${t.premium?'👑 PREMIUM':'ücretsiz'}</span>
+      <button class="iconbtn ${t.premium?'pro':''}" onclick="togglePremium(${idx})">${t.premium?'Ücretsiz yap':'Premium yap'}</button>
+      <button class="iconbtn del" onclick="delTrack(${idx})">Sil</button>
+    </div>`;
+  }).join("") || '<div class="muted">Sonuç yok.</div>';
+}
+function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+async function togglePremium(idx){
+  catalog.tracks[idx].premium = !catalog.tracks[idx].premium;
+  renderList();
+  try{ await saveCatalog(`premium: ${catalog.tracks[idx].title}`); toast("Güncellendi ✓","ok"); }
+  catch(e){ catalog.tracks[idx].premium=!catalog.tracks[idx].premium; renderList(); toast("Hata: "+e.message,"err"); }
+}
+
+async function delTrack(idx){
+  const t = catalog.tracks[idx];
+  if(!confirm(`"${t.title}" katalogdan silinsin mi?\n(mp3 dosyası da Release'ten silinir)`)) return;
+  try{
+    // Release asset'i bul + sil
+    if(releaseId){
+      const assets = await (await gh(`/repos/${REPO}/releases/${releaseId}/assets?per_page=100`)).json();
+      const a = Array.isArray(assets) ? assets.find(x=>x.name===t.file) : null;
+      if(a) await gh(`/repos/${REPO}/releases/assets/${a.id}`, {method:"DELETE"});
+    }
+    catalog.tracks.splice(idx,1);
+    await saveCatalog(`müzik sil: ${t.title}`);
+    renderList(); toast("Silindi ✓","ok");
+  }catch(e){ toast("Hata: "+e.message,"err"); loadCatalog(); }
+}
+
+// otomatik bağlan
+if(token) $("#saveTok").onclick();
+</script>
+</body>
+</html>
