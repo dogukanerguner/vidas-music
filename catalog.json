@@ -27,15 +27,15 @@
    "order": 3
   },
   {
-   "id": "hip-hop",
-   "name": "Hip-Hop",
-   "icon": "🎧",
-   "order": 4
-  },
-  {
    "id": "t-rkiye",
    "name": "Türkiye",
    "icon": "🇹🇷",
+   "order": 4
+  },
+  {
+   "id": "hip-hop",
+   "name": "Hip-Hop",
+   "icon": "🎧",
    "order": 5
   },
   {
