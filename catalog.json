@@ -21,15 +21,15 @@
    "order": 2
   },
   {
-   "id": "ocuk-e-lence",
-   "name": "Çocuk & Eğlence",
-   "icon": "😊",
-   "order": 3
-  },
-  {
    "id": "t-rkiye",
    "name": "Türkiye",
    "icon": "🇹🇷",
+   "order": 3
+  },
+  {
+   "id": "ocuk-e-lence",
+   "name": "Çocuk & Eğlence",
+   "icon": "😊",
    "order": 4
   },
   {
