@@ -33,15 +33,15 @@
    "order": 4
   },
   {
-   "id": "ocuk-e-lence",
-   "name": "Çocuk & Eğlence",
-   "icon": "😊",
-   "order": 5
-  },
-  {
    "id": "trap",
    "name": "Trap",
    "icon": "⚡",
+   "order": 5
+  },
+  {
+   "id": "ocuk-e-lence",
+   "name": "Çocuk & Eğlence",
+   "icon": "😊",
    "order": 6
   },
   {
