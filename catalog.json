@@ -81,15 +81,15 @@
    "order": 12
   },
   {
-   "id": "funk",
-   "name": "Funk & Disco",
-   "icon": "🕺",
-   "order": 13
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 13
+  },
+  {
+   "id": "funk",
+   "name": "Funk & Disco",
+   "icon": "🕺",
    "order": 14
   },
   {
