@@ -87,15 +87,15 @@
    "order": 13
   },
   {
-   "id": "rnb-soul",
-   "name": "R&B & Soul",
-   "icon": "🎤",
-   "order": 14
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 14
+  },
+  {
+   "id": "rnb-soul",
+   "name": "R&B & Soul",
+   "icon": "🎤",
    "order": 15
   },
   {
