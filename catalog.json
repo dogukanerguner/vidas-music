@@ -75,15 +75,15 @@
    "order": 11
   },
   {
-   "id": "pop",
-   "name": "Pop",
-   "icon": "✨",
-   "order": 12
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 12
+  },
+  {
+   "id": "pop",
+   "name": "Pop",
+   "icon": "✨",
    "order": 13
   },
   {
