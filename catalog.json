@@ -6390,7 +6390,7 @@
    "genre": "trap",
    "duration": 79,
    "artist": "vidas",
-   "premium": false,
+   "premium": true,
    "tags": "",
    "description": "",
    "categoryId": "trap",
