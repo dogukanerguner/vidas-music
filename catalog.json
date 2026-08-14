@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "updated": "2026-08-14",
  "categories": [
   {
@@ -51,75 +51,75 @@
    "order": 7
   },
   {
-   "id": "corporate-vlog",
-   "name": "Vlog & Kurumsal",
-   "icon": "💼",
-   "order": 8
-  },
-  {
    "id": "edm",
    "name": "EDM & Dans",
    "icon": "🎉",
-   "order": 9
+   "order": 8
   },
   {
    "id": "house",
    "name": "House",
    "icon": "🏠",
-   "order": 10
+   "order": 9
   },
   {
    "id": "phonk",
    "name": "Phonk & Drift",
    "icon": "🏎️",
-   "order": 11
+   "order": 10
   },
   {
    "id": "synthwave",
    "name": "Synthwave",
    "icon": "🌆",
-   "order": 12
+   "order": 11
   },
   {
    "id": "pop",
    "name": "Pop",
    "icon": "✨",
-   "order": 13
+   "order": 12
   },
   {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
-   "order": 14
+   "order": 13
   },
   {
    "id": "rnb-soul",
    "name": "R&B & Soul",
    "icon": "🎤",
-   "order": 15
+   "order": 14
   },
   {
    "id": "lofi",
    "name": "Lo-fi",
    "icon": "🌙",
-   "order": 16
+   "order": 15
   },
   {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
-   "order": 17
+   "order": 16
   },
   {
    "id": "rock",
    "name": "Rock",
    "icon": "🤘",
-   "order": 18
+   "order": 17
   },
   {
    "id": "cinematic-epic",
    "name": "Epik & Sinematik",
    "icon": "🎬",
+   "order": 18
+  },
+  {
+   "id": "corporate-vlog",
+   "name": "Vlog & Kurumsal",
+   "icon": "💼",
    "order": 19
   },
   {
@@ -136,7 +136,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 112,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "test premium",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -148,7 +148,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 104,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -160,7 +160,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 178,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -172,7 +172,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 442,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -184,7 +184,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 415,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -196,7 +196,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 148,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -208,7 +208,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 143,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -220,7 +220,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 149,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -232,7 +232,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 191,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -244,7 +244,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 192,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -256,7 +256,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 146,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -280,7 +280,7 @@
    "genre": "afrobeat-amapiano",
    "duration": 213,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "afrobeat-amapiano",
@@ -2176,7 +2176,7 @@
    "genre": "trap",
    "duration": 209,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -2188,7 +2188,7 @@
    "genre": "trap",
    "duration": 149,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -2200,7 +2200,7 @@
    "genre": "trap",
    "duration": 93,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -2224,7 +2224,7 @@
    "genre": "trap",
    "duration": 114,
    "artist": "vidas Özel",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6210,7 +6210,7 @@
    "genre": "trap",
    "duration": 107,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6234,7 +6234,7 @@
    "genre": "trap",
    "duration": 127,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6258,7 +6258,7 @@
    "genre": "trap",
    "duration": 42,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6270,7 +6270,7 @@
    "genre": "trap",
    "duration": 22,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6294,7 +6294,7 @@
    "genre": "trap",
    "duration": 123,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6318,7 +6318,7 @@
    "genre": "trap",
    "duration": 40,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6354,7 +6354,7 @@
    "genre": "trap",
    "duration": 41,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
@@ -6390,7 +6390,7 @@
    "genre": "trap",
    "duration": 79,
    "artist": "vidas",
-   "premium": true,
+   "premium": false,
    "tags": "",
    "description": "",
    "categoryId": "trap",
