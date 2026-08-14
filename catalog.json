@@ -93,15 +93,15 @@
    "order": 14
   },
   {
-   "id": "lofi",
-   "name": "Lo-fi",
-   "icon": "🌙",
-   "order": 15
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 15
+  },
+  {
+   "id": "lofi",
+   "name": "Lo-fi",
+   "icon": "🌙",
    "order": 16
   },
   {
