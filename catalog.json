@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 2,
  "updated": "2026-08-14",
  "categories": [
   {
@@ -111,15 +111,15 @@
    "order": 17
   },
   {
-   "id": "cinematic-epic",
-   "name": "Epik & Sinematik",
-   "icon": "🎬",
-   "order": 18
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 18
+  },
+  {
+   "id": "cinematic-epic",
+   "name": "Epik & Sinematik",
+   "icon": "🎬",
    "order": 19
   },
   {
