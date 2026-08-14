@@ -2224,7 +2224,7 @@
    "genre": "trap",
    "duration": 114,
    "artist": "vidas Özel",
-   "premium": false,
+   "premium": true,
    "tags": "",
    "description": "",
    "categoryId": "trap",
