@@ -105,15 +105,15 @@
    "order": 16
   },
   {
-   "id": "rock",
-   "name": "Rock",
-   "icon": "🤘",
-   "order": 17
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 17
+  },
+  {
+   "id": "rock",
+   "name": "Rock",
+   "icon": "🤘",
    "order": 18
   },
   {
