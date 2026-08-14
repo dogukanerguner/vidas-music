@@ -51,15 +51,15 @@
    "order": 7
   },
   {
-   "id": "edm",
-   "name": "EDM & Dans",
-   "icon": "🎉",
-   "order": 8
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Kurumsal",
    "icon": "💼",
+   "order": 8
+  },
+  {
+   "id": "edm",
+   "name": "EDM & Dans",
+   "icon": "🎉",
    "order": 9
   },
   {
