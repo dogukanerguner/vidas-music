@@ -69,15 +69,15 @@
    "order": 10
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 11
-  },
-  {
    "id": "rnb-soul",
    "name": "R&B & Soul",
    "icon": "🎤",
+   "order": 11
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 12
   },
   {
