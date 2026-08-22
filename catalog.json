@@ -63,15 +63,15 @@
    "order": 9
   },
   {
-   "id": "lofi",
-   "name": "Lo-fi",
-   "icon": "🌙",
-   "order": 10
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 10
+  },
+  {
+   "id": "lofi",
+   "name": "Lo-fi",
+   "icon": "🌙",
    "order": 11
   },
   {
