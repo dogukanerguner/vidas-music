@@ -9,15 +9,15 @@
    "order": 0
   },
   {
-   "id": "drill",
-   "name": "Drill",
-   "icon": "🔩",
-   "order": 1
-  },
-  {
    "id": "bass-dubstep",
    "name": "Bass & Dubstep",
    "icon": "🔊",
+   "order": 1
+  },
+  {
+   "id": "drill",
+   "name": "Drill",
+   "icon": "🔩",
    "order": 2
   },
   {
