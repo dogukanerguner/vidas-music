@@ -45,15 +45,15 @@
    "order": 6
   },
   {
-   "id": "latin-reggaeton",
-   "name": "Latin & Reggaeton",
-   "icon": "🎸",
-   "order": 7
-  },
-  {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
+   "order": 7
+  },
+  {
+   "id": "latin-reggaeton",
+   "name": "Latin & Reggaeton",
+   "icon": "🎸",
    "order": 8
   },
   {
