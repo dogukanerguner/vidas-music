@@ -45,15 +45,15 @@
    "order": 6
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 7
-  },
-  {
    "id": "edm",
    "name": "EDM & Dance",
    "icon": "🎉",
+   "order": 7
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 8
   },
   {
