@@ -45,15 +45,15 @@
    "order": 6
   },
   {
-   "id": "ocuk-e-lence",
-   "name": "Kids & Fun",
-   "icon": "😊",
-   "order": 7
-  },
-  {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
+   "order": 7
+  },
+  {
+   "id": "ocuk-e-lence",
+   "name": "Kids & Fun",
+   "icon": "😊",
    "order": 8
   },
   {
