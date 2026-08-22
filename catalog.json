@@ -87,15 +87,15 @@
    "order": 13
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 14
-  },
-  {
    "id": "lofi",
    "name": "Lo-fi",
    "icon": "🌙",
+   "order": 14
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 15
   },
   {
