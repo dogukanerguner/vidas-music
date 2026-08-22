@@ -75,15 +75,15 @@
    "order": 11
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 12
-  },
-  {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
+   "order": 12
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 13
   },
   {
