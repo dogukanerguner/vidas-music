@@ -69,15 +69,15 @@
    "order": 10
   },
   {
-   "id": "phonk",
-   "name": "Phonk & Drift",
-   "icon": "🏎️",
-   "order": 11
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 11
+  },
+  {
+   "id": "phonk",
+   "name": "Phonk & Drift",
+   "icon": "🏎️",
    "order": 12
   },
   {
