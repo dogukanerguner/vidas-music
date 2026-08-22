@@ -117,15 +117,15 @@
    "order": 18
   },
   {
-   "id": "cinematic-epic",
-   "name": "Epic & Cinematic",
-   "icon": "🎬",
-   "order": 19
-  },
-  {
    "id": "t-rkiye",
    "name": "Turkish",
    "icon": "🇹🇷",
+   "order": 19
+  },
+  {
+   "id": "cinematic-epic",
+   "name": "Epic & Cinematic",
+   "icon": "🎬",
    "order": 20
   }
  ],
