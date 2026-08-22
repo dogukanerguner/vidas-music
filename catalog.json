@@ -75,15 +75,15 @@
    "order": 11
   },
   {
-   "id": "funk",
-   "name": "Funk & Disco",
-   "icon": "🕺",
-   "order": 12
-  },
-  {
    "id": "rnb-soul",
    "name": "R&B & Soul",
    "icon": "🎤",
+   "order": 12
+  },
+  {
+   "id": "funk",
+   "name": "Funk & Disco",
+   "icon": "🕺",
    "order": 13
   },
   {
