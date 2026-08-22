@@ -39,15 +39,15 @@
    "order": 5
   },
   {
-   "id": "latin-reggaeton",
-   "name": "Latin & Reggaeton",
-   "icon": "🎸",
-   "order": 6
-  },
-  {
    "id": "house",
    "name": "House",
    "icon": "🏠",
+   "order": 6
+  },
+  {
+   "id": "latin-reggaeton",
+   "name": "Latin & Reggaeton",
+   "icon": "🎸",
    "order": 7
   },
   {
