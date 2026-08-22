@@ -33,15 +33,15 @@
    "order": 4
   },
   {
-   "id": "latin-reggaeton",
-   "name": "Latin & Reggaeton",
-   "icon": "🎸",
-   "order": 5
-  },
-  {
    "id": "ocuk-e-lence",
    "name": "Kids & Fun",
    "icon": "😊",
+   "order": 5
+  },
+  {
+   "id": "latin-reggaeton",
+   "name": "Latin & Reggaeton",
+   "icon": "🎸",
    "order": 6
   },
   {
