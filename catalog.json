@@ -105,15 +105,15 @@
    "order": 16
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 17
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 17
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 18
   },
   {
