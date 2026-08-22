@@ -87,15 +87,15 @@
    "order": 13
   },
   {
-   "id": "synthwave",
-   "name": "Synthwave",
-   "icon": "🌆",
-   "order": 14
-  },
-  {
    "id": "rock",
    "name": "Rock",
    "icon": "🤘",
+   "order": 14
+  },
+  {
+   "id": "synthwave",
+   "name": "Synthwave",
+   "icon": "🌆",
    "order": 15
   },
   {
