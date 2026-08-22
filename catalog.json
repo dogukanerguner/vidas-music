@@ -75,15 +75,15 @@
    "order": 11
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 12
-  },
-  {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
+   "order": 12
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 13
   },
   {
