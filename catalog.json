@@ -93,15 +93,15 @@
    "order": 14
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 15
-  },
-  {
    "id": "rock",
    "name": "Rock",
    "icon": "🤘",
+   "order": 15
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 16
   },
   {
