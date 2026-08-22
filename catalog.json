@@ -33,15 +33,15 @@
    "order": 4
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 5
-  },
-  {
    "id": "edm",
    "name": "EDM & Dance",
    "icon": "🎉",
+   "order": 5
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 6
   },
   {
