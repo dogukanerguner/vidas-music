@@ -39,15 +39,15 @@
    "order": 5
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 6
-  },
-  {
    "id": "ocuk-e-lence",
    "name": "Kids & Fun",
    "icon": "😊",
+   "order": 6
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 7
   },
   {
