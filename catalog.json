@@ -51,15 +51,15 @@
    "order": 7
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 8
-  },
-  {
    "id": "house",
    "name": "House",
    "icon": "🏠",
+   "order": 8
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 9
   },
   {
