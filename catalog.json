@@ -9,21 +9,21 @@
    "order": 0
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 1
-  },
-  {
    "id": "trap",
    "name": "Trap",
    "icon": "⚡",
-   "order": 2
+   "order": 1
   },
   {
    "id": "drill",
    "name": "Drill",
    "icon": "🔩",
+   "order": 2
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 3
   },
   {
