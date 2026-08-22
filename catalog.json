@@ -33,15 +33,15 @@
    "order": 4
   },
   {
-   "id": "hip-hop",
-   "name": "Hip-Hop",
-   "icon": "🎧",
-   "order": 5
-  },
-  {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
+   "order": 5
+  },
+  {
+   "id": "hip-hop",
+   "name": "Hip-Hop",
+   "icon": "🎧",
    "order": 6
   },
   {
