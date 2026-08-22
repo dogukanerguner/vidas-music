@@ -99,15 +99,15 @@
    "order": 15
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 16
-  },
-  {
    "id": "trailer-action",
    "name": "Trailer & Action",
    "icon": "🔥",
+   "order": 16
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 17
   },
   {
