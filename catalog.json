@@ -3,15 +3,15 @@
  "updated": "2026-08-14",
  "categories": [
   {
-   "id": "drill",
-   "name": "Drill",
-   "icon": "🔩",
-   "order": 0
-  },
-  {
    "id": "afrobeat-amapiano",
    "name": "Afrobeat & Amapiano",
    "icon": "🌍",
+   "order": 0
+  },
+  {
+   "id": "drill",
+   "name": "Drill",
+   "icon": "🔩",
    "order": 1
   },
   {
