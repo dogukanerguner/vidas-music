@@ -39,15 +39,15 @@
    "order": 5
   },
   {
-   "id": "house",
-   "name": "House",
-   "icon": "🏠",
-   "order": 6
-  },
-  {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
+   "order": 6
+  },
+  {
+   "id": "house",
+   "name": "House",
+   "icon": "🏠",
    "order": 7
   },
   {
