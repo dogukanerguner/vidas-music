@@ -81,15 +81,15 @@
    "order": 12
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 13
-  },
-  {
    "id": "rnb-soul",
    "name": "R&B & Soul",
    "icon": "🎤",
+   "order": 13
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 14
   },
   {
