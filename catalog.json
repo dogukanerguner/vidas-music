@@ -63,15 +63,15 @@
    "order": 9
   },
   {
-   "id": "phonk",
-   "name": "Phonk & Drift",
-   "icon": "🏎️",
-   "order": 10
-  },
-  {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
+   "order": 10
+  },
+  {
+   "id": "phonk",
+   "name": "Phonk & Drift",
+   "icon": "🏎️",
    "order": 11
   },
   {
