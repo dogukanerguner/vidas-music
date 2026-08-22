@@ -57,15 +57,15 @@
    "order": 8
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 9
-  },
-  {
    "id": "phonk",
    "name": "Phonk & Drift",
    "icon": "🏎️",
+   "order": 9
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 10
   },
   {
