@@ -51,15 +51,15 @@
    "order": 7
   },
   {
-   "id": "phonk",
-   "name": "Phonk & Drift",
-   "icon": "🏎️",
-   "order": 8
-  },
-  {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
+   "order": 8
+  },
+  {
+   "id": "phonk",
+   "name": "Phonk & Drift",
+   "icon": "🏎️",
    "order": 9
   },
   {
