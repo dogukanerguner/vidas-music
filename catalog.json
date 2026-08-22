@@ -21,15 +21,15 @@
    "order": 2
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 3
-  },
-  {
    "id": "hip-hop",
    "name": "Hip-Hop",
    "icon": "🎧",
+   "order": 3
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 4
   },
   {
