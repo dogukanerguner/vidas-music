@@ -27,15 +27,15 @@
    "order": 3
   },
   {
-   "id": "hip-hop",
-   "name": "Hip-Hop",
-   "icon": "🎧",
-   "order": 4
-  },
-  {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
+   "order": 4
+  },
+  {
+   "id": "hip-hop",
+   "name": "Hip-Hop",
+   "icon": "🎧",
    "order": 5
   },
   {
