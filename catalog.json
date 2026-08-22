@@ -81,15 +81,15 @@
    "order": 12
   },
   {
-   "id": "synthwave",
-   "name": "Synthwave",
-   "icon": "🌆",
-   "order": 13
-  },
-  {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
+   "order": 13
+  },
+  {
+   "id": "synthwave",
+   "name": "Synthwave",
+   "icon": "🌆",
    "order": 14
   },
   {
