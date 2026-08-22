@@ -69,15 +69,15 @@
    "order": 10
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 11
-  },
-  {
    "id": "pop",
    "name": "Pop",
    "icon": "✨",
+   "order": 11
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 12
   },
   {
