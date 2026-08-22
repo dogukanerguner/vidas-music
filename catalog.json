@@ -51,15 +51,15 @@
    "order": 7
   },
   {
-   "id": "ocuk-e-lence",
-   "name": "Kids & Fun",
-   "icon": "😊",
-   "order": 8
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 8
+  },
+  {
+   "id": "ocuk-e-lence",
+   "name": "Kids & Fun",
+   "icon": "😊",
    "order": 9
   },
   {
