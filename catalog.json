@@ -51,15 +51,15 @@
    "order": 7
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 8
-  },
-  {
    "id": "phonk",
    "name": "Phonk & Drift",
    "icon": "🏎️",
+   "order": 8
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 9
   },
   {
