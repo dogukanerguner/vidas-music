@@ -27,15 +27,15 @@
    "order": 3
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 4
-  },
-  {
    "id": "afrobeat-amapiano",
    "name": "Afrobeat & Amapiano",
    "icon": "🌍",
+   "order": 4
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 5
   },
   {
