@@ -15,15 +15,15 @@
    "order": 1
   },
   {
-   "id": "drill",
-   "name": "Drill",
-   "icon": "🔩",
-   "order": 2
-  },
-  {
    "id": "chill-ambient",
    "name": "Chill & Ambient",
    "icon": "☁️",
+   "order": 2
+  },
+  {
+   "id": "drill",
+   "name": "Drill",
+   "icon": "🔩",
    "order": 3
   },
   {
