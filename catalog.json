@@ -81,15 +81,15 @@
    "order": 12
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 13
-  },
-  {
    "id": "lofi",
    "name": "Lo-fi",
    "icon": "🌙",
+   "order": 13
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 14
   },
   {
