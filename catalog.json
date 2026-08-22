@@ -105,15 +105,15 @@
    "order": 16
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 17
-  },
-  {
    "id": "corporate-vlog",
    "name": "Vlog & Corporate",
    "icon": "💼",
+   "order": 17
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 18
   },
   {
