@@ -57,15 +57,15 @@
    "order": 8
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 9
-  },
-  {
    "id": "synthwave",
    "name": "Synthwave",
    "icon": "🌆",
+   "order": 9
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 10
   },
   {
