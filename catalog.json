@@ -45,15 +45,15 @@
    "order": 6
   },
   {
-   "id": "trap",
-   "name": "Trap",
-   "icon": "⚡",
-   "order": 7
-  },
-  {
    "id": "house",
    "name": "House",
    "icon": "🏠",
+   "order": 7
+  },
+  {
+   "id": "trap",
+   "name": "Trap",
+   "icon": "⚡",
    "order": 8
   },
   {
