@@ -33,15 +33,15 @@
    "order": 4
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 5
-  },
-  {
    "id": "latin-reggaeton",
    "name": "Latin & Reggaeton",
    "icon": "🎸",
+   "order": 5
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 6
   },
   {
