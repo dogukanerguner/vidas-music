@@ -105,15 +105,15 @@
    "order": 16
   },
   {
-   "id": "cinematic-epic",
-   "name": "Epic & Cinematic",
-   "icon": "🎬",
-   "order": 17
-  },
-  {
    "id": "trailer-action",
    "name": "Trailer & Action",
    "icon": "🔥",
+   "order": 17
+  },
+  {
+   "id": "cinematic-epic",
+   "name": "Epic & Cinematic",
+   "icon": "🎬",
    "order": 18
   },
   {
