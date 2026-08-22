@@ -27,15 +27,15 @@
    "order": 3
   },
   {
-   "id": "latin-reggaeton",
-   "name": "Latin & Reggaeton",
-   "icon": "🎸",
-   "order": 4
-  },
-  {
    "id": "edm",
    "name": "EDM & Dance",
    "icon": "🎉",
+   "order": 4
+  },
+  {
+   "id": "latin-reggaeton",
+   "name": "Latin & Reggaeton",
+   "icon": "🎸",
    "order": 5
   },
   {
