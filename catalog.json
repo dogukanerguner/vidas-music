@@ -69,15 +69,15 @@
    "order": 10
   },
   {
-   "id": "synthwave",
-   "name": "Synthwave",
-   "icon": "🌆",
-   "order": 11
-  },
-  {
    "id": "funk",
    "name": "Funk & Disco",
    "icon": "🕺",
+   "order": 11
+  },
+  {
+   "id": "synthwave",
+   "name": "Synthwave",
+   "icon": "🌆",
    "order": 12
   },
   {
