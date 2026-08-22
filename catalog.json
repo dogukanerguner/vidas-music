@@ -51,15 +51,15 @@
    "order": 7
   },
   {
-   "id": "chill-ambient",
-   "name": "Chill & Ambient",
-   "icon": "☁️",
-   "order": 8
-  },
-  {
    "id": "latin-reggaeton",
    "name": "Latin & Reggaeton",
    "icon": "🎸",
+   "order": 8
+  },
+  {
+   "id": "chill-ambient",
+   "name": "Chill & Ambient",
+   "icon": "☁️",
    "order": 9
   },
   {
