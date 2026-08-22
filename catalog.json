@@ -111,15 +111,15 @@
    "order": 17
   },
   {
-   "id": "corporate-vlog",
-   "name": "Vlog & Corporate",
-   "icon": "💼",
-   "order": 18
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 18
+  },
+  {
+   "id": "corporate-vlog",
+   "name": "Vlog & Corporate",
+   "icon": "💼",
    "order": 19
   },
   {
