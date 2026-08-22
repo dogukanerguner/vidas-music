@@ -75,15 +75,15 @@
    "order": 11
   },
   {
-   "id": "synthwave",
-   "name": "Synthwave",
-   "icon": "🌆",
-   "order": 12
-  },
-  {
    "id": "lofi",
    "name": "Lo-fi",
    "icon": "🌙",
+   "order": 12
+  },
+  {
+   "id": "synthwave",
+   "name": "Synthwave",
+   "icon": "🌆",
    "order": 13
   },
   {
