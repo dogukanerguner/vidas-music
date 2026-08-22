@@ -51,21 +51,21 @@
    "order": 7
   },
   {
+   "id": "chill-ambient",
+   "name": "Chill & Ambient",
+   "icon": "☁️",
+   "order": 8
+  },
+  {
    "id": "latin-reggaeton",
    "name": "Latin & Reggaeton",
    "icon": "🎸",
-   "order": 8
+   "order": 9
   },
   {
    "id": "lofi",
    "name": "Lo-fi",
    "icon": "🌙",
-   "order": 9
-  },
-  {
-   "id": "chill-ambient",
-   "name": "Chill & Ambient",
-   "icon": "☁️",
    "order": 10
   },
   {
