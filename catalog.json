@@ -93,15 +93,15 @@
    "order": 14
   },
   {
-   "id": "synthwave",
-   "name": "Synthwave",
-   "icon": "🌆",
-   "order": 15
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 15
+  },
+  {
+   "id": "synthwave",
+   "name": "Synthwave",
+   "icon": "🌆",
    "order": 16
   },
   {
