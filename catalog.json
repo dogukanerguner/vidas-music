@@ -63,15 +63,15 @@
    "order": 9
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 10
-  },
-  {
    "id": "synthwave",
    "name": "Synthwave",
    "icon": "🌆",
+   "order": 10
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 11
   },
   {
