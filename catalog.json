@@ -39,15 +39,15 @@
    "order": 5
   },
   {
-   "id": "t-rkiye",
-   "name": "Turkish",
-   "icon": "🇹🇷",
-   "order": 6
-  },
-  {
    "id": "ocuk-e-lence",
    "name": "Kids & Fun",
    "icon": "😊",
+   "order": 6
+  },
+  {
+   "id": "t-rkiye",
+   "name": "Turkish",
+   "icon": "🇹🇷",
    "order": 7
   },
   {
