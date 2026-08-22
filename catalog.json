@@ -81,15 +81,15 @@
    "order": 12
   },
   {
-   "id": "cinematic-epic",
-   "name": "Epic & Cinematic",
-   "icon": "🎬",
-   "order": 13
-  },
-  {
    "id": "rnb-soul",
    "name": "R&B & Soul",
    "icon": "🎤",
+   "order": 13
+  },
+  {
+   "id": "cinematic-epic",
+   "name": "Epic & Cinematic",
+   "icon": "🎬",
    "order": 14
   },
   {
