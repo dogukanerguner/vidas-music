@@ -33,15 +33,15 @@
    "order": 4
   },
   {
-   "id": "funk",
-   "name": "Funk & Disco",
-   "icon": "🕺",
-   "order": 5
-  },
-  {
    "id": "cinematic-epic",
    "name": "Epic & Cinematic",
    "icon": "🎬",
+   "order": 5
+  },
+  {
+   "id": "funk",
+   "name": "Funk & Disco",
+   "icon": "🕺",
    "order": 6
   },
   {
